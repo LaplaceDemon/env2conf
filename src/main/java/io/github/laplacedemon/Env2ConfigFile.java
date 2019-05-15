@@ -38,7 +38,7 @@ public class Env2ConfigFile {
             return;
         }
 
-        if (args[0].equals("--print-conf")) {
+        if (args[0].equals("--print-all")) {
             startIndex++;
             {
                 Map<String, String> envMap = System.getenv();
